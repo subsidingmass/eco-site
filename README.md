@@ -1,39 +1,46 @@
-# create-svelte
+# Perequisites
+1. NPM (Node Package Manager)
+2. Python
+# Cloning Repo
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
+1. Ensure that git is installed
+2. Clone this repo with the command below
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+git clone https://github.com/subsidingmass/eco-site.git
 ```
 
-## Developing
+# Installing Dependencies
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## NPM packages
 
+1. Ensure that npm is installed on your machine
+2. Cd into the project root directory
+3. Run command below to install dependencies
+
+```bash
+npm i
+# or
+npm install
+```
+
+## Python packages
+
+1. Python should already be installed on your machine
+2. Make sure that you are in the root of the project (your already should be)
+3. Run the command below to install dependencies from the requirements file
+
+```bash
+pip install -r requirements.txt
+```
+# Running Servers
+## API (Python Server)
+```bash
+python app.py
+```
+## Frontend Client
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
-> Test
+# Open on browser
+**The site should be running on port 5173**
