@@ -2,7 +2,6 @@
 	import Navbar from '../../components/Navbar.svelte';
 	import { onMount } from 'svelte';
 
-	// Modal controller
 	let modal: HTMLDialogElement;
 
 	function openModal(plantData: Plant) {
