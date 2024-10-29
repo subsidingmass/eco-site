@@ -38,7 +38,7 @@ import Navbar from "../../components/Navbar.svelte";
                     <input type="radio" name="accordion" id="accordion3" />
                     <label for="accordion3" class="collapse-title text-xl font-medium cursor-pointer">Who made it?</label>
                     <div class="collapse-content">
-                        <p>I (Zakk) made the site alone, and that's about it.</p>
+                        <p>I made the site alone, and that's about it.</p>
                     </div>
                 </div>
             </div>
