@@ -1,6 +1,5 @@
 <script lang="ts">
     import '../../app.css';
-    import Navbar from '../../components/Navbar.svelte';
 
     let common_name = '';
     let first_nations_name = '';
@@ -76,7 +75,6 @@
 </script>
 
 <main>
-    <Navbar />
     <div class="hero bg-base-200 min-h-screen">
         <div class="hero-content flex-col lg:flex-row-reverse">
             <img

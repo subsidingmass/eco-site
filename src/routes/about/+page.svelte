@@ -1,9 +1,9 @@
 <script lang="ts">
-import Navbar from "../../components/Navbar.svelte";
+	import { goto } from "$app/navigation";
+
 </script>
 
 <main>
-    <Navbar />
     <div class="hero bg-base-200 min-h-screen">
         <div class="hero-content flex-col lg:flex-row">
             <div>

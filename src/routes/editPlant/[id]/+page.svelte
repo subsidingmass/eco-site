@@ -1,5 +1,4 @@
 <script lang="ts">
-  import Navbar from '../../../components/Navbar.svelte';
   import { goto } from '$app/navigation';
   import { page } from '$app/stores';
   import { onMount } from 'svelte';
@@ -113,7 +112,6 @@
 </script>
 
 <main class="bg-base-200">
-  <Navbar />
   <div class="hero bg-base-200 min-h-screen">
     <div class="hero-content flex-col lg:flex-row">
       <div>
@@ -154,7 +152,7 @@
         <div class="grid grid-cols-1 gap-4">
           <div>
             <label for="common_name" class="label">Common Name</label>
-            <input id="common_name" type="text" bind:value={plant.common_name} class="input input-primary w-full" />
+            <input id="common_name" type="text" bind:value={plant?.common_name} class="input input-primary w-full" />
           </div>
           <div>
             <label for="first_nations_name" class="label">First Nations Name</label>

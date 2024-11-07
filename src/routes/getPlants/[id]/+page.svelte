@@ -1,7 +1,6 @@
 <script lang="ts">
   import { onMount, beforeUpdate } from 'svelte';
   import { page } from '$app/stores';
-  import Navbar from '../../../components/Navbar.svelte';
   import { goto } from '$app/navigation';
 
   let plantId: number;
@@ -84,7 +83,6 @@
 </script>
 
 <main class="bg-base-200 min-h-screen">
-  <Navbar />
   <div class="container mx-auto p-4">
     <button class="btn btn-primary block mb-4" on:click={() => goto('/plants')}>Go Back</button>
     {#if loading}
