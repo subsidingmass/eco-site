@@ -1,1 +1,1 @@
-// place files you want to import through the `$lib` alias in this folder.
+// Files in this folder can be accessed through the $lib/ alias
